@@ -3,7 +3,7 @@
 // Framer publishes none, so search engines have to infer what this business is
 // from prose alone. The graph below states it outright: who the studio is, how
 // to reach it, and what the two packages on the pricing section actually cost.
-// Every figure here mirrors the rendered page — if the pricing section changes,
+// Every figure here mirrors the rendered page - if the pricing section changes,
 // change it here too, because contradicting your own page is worse than saying
 // nothing.
 

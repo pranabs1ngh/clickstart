@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 
 /** Generated from the Framer section "Header".
- *  Renders to the same DOM as the original — the Suspense boundaries here are
+ *  Renders to the same DOM as the original - the Suspense boundaries here are
  *  Framer's hydration markers, so removing them would break its runtime.
  *  Everything else is ordinary JSX: edit it like any other component. */
 export default function Header() {

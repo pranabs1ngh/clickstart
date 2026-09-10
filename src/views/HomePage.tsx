@@ -4,7 +4,7 @@ import StudioSplitLayout from "@/src/sections/home/StudioSplitLayout";
 
 /** The "/" page, composed from its Framer sections.
  *
- *  Rendered to static HTML by scripts/prerender.mts at build time — never
+ *  Rendered to static HTML by scripts/prerender.mts at build time - never
  *  shipped as a page.tsx, which would duplicate every byte of this markup into
  *  the RSC flight payload on top of the HTML itself. */
 export default function HomePage() {

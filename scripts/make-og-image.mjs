@@ -6,7 +6,7 @@
 //   node scripts/make-og-image.mjs
 //
 // The PNG it writes is committed, so the build does not depend on this script
-// or on sharp — which is a transitive dependency of Next, not one this project
+// or on sharp - which is a transitive dependency of Next, not one this project
 // declares. Text is set in a system sans rather than the site's Inter Tight,
 // because the SVG rasteriser only sees fonts installed on the machine.
 

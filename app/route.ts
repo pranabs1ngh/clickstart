@@ -7,7 +7,7 @@ export const dynamic = "force-static";
 
 export async function GET() {
   // In development, render the component on every request so that editing a
-  // section and refreshing shows the change — without this the page served is
+  // section and refreshing shows the change - without this the page served is
   // whatever the prerender step captured when `npm run dev` started, and
   // edits appear to do nothing. Production serves the prerendered bytes.
   const html =

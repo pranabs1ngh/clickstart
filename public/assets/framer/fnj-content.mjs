@@ -5,7 +5,7 @@
 // you want with your editor's search.
 //
 // Run `npm run prerender` (or `npm run build`) after editing. That is what
-// puts your text into the HTML the server sends — without it the change only
+// puts your text into the HTML the server sends - without it the change only
 // appears once JavaScript has run, which means a flash of the old text and
 // search engines still reading the old text.
 //

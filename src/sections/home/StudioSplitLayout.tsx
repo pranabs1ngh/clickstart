@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 
 /** Generated from the Framer section "Studio split layout".
- *  Renders to the same DOM as the original — the Suspense boundaries here are
+ *  Renders to the same DOM as the original - the Suspense boundaries here are
  *  Framer's hydration markers, so removing them would break its runtime.
  *  Everything else is ordinary JSX: edit it like any other component. */
 export default function StudioSplitLayout() {
@@ -1664,15 +1664,13 @@ export default function StudioSplitLayout() {
           </div>
           <div className="framer-395ilt-container">
             <Suspense fallback={null}>
-              <div className="ssr-variant hidden-12ibufm hidden-ajyjij hidden-kz14hy">
-                <iframe src="https://cal.com/clickstart.studio/15mins" style={{ width: "100%", height: "100%", border: "none", zoom: "0.7", borderRadius: "0px", transformOrigin: "top center" }} loading="lazy" fetchPriority="auto" referrerpolicy="no-referrer" sandbox="allow-same-origin allow-scripts allow-downloads allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" allowFullScreen allow="presentation; fullscreen; accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; clipboard-write" />
-              </div>
-              <div className="ssr-variant hidden-ajyjij hidden-72rtr7">
-                <iframe src="https://cal.com/clickstart.studio/15mins" style={{ width: "100%", height: "100%", border: "none", zoom: "0.8", borderRadius: "0px", transformOrigin: "top center" }} loading="lazy" fetchPriority="auto" referrerpolicy="no-referrer" sandbox="allow-same-origin allow-scripts allow-downloads allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" allowFullScreen allow="presentation; fullscreen; accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; clipboard-write" />
-              </div>
-              <div className="ssr-variant hidden-12ibufm hidden-kz14hy hidden-72rtr7">
-                <iframe src="https://cal.com/clickstart.studio/15mins" style={{ width: "100%", height: "100%", border: "none", zoom: "0.5", borderRadius: "0px", transformOrigin: "top center" }} loading="lazy" fetchPriority="auto" referrerpolicy="no-referrer" sandbox="allow-same-origin allow-scripts allow-downloads allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" allowFullScreen allow="presentation; fullscreen; accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; clipboard-write" />
-              </div>
+              {/* Filled by cal.com's embed script, which sizes the iframe to
+                  its real content height. Framer's URL embed could not: it
+                  pinned a fixed height per breakpoint and scaled the page down
+                  with CSS zoom. See src/cal-embed.ts, and the matching patch in
+                  public/assets/framer/shared-lib.*.mjs - the runtime
+                  re-renders this node, so both have to agree. */}
+              <div id="cal-booking" style={{ width: "100%" }} />
             </Suspense>
           </div>
         </div>

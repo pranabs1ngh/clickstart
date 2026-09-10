@@ -1,8 +1,8 @@
 // Renders one page to the exact HTML Framer published.
 //
 // Shared by two callers:
-//   scripts/prerender.mts  — at build time, writing .rendered/*.html
-//   app/**/route.ts        — per request in development, so an edit to a
+//   scripts/prerender.mts  - at build time, writing .rendered/*.html
+//   app/**/route.ts        - per request in development, so an edit to a
 //                            section shows up on refresh
 //
 // Production always serves the prerendered file; this module is what produced
@@ -10,6 +10,7 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import type { ComponentType } from "react";
+import { calEmbed } from "./cal-embed";
 import { structuredData } from "./seo";
 
 export interface Page {
@@ -40,7 +41,7 @@ const DEFAULT_ORIGIN = "https://clickstart.studio";
 
 /**
  * The origin this site will be served from, used to make canonical, og:url and
- * og:image absolute. Set SITE_URL to override — that is the one answer that
+ * og:image absolute. Set SITE_URL to override - that is the one answer that
  * survives preview deployments, which each get a different generated hostname
  * and must not advertise themselves as canonical.
  *
@@ -95,8 +96,8 @@ export async function renderPage(page: Page, Component: ComponentType): Promise<
   });
 
   // React inserts <!-- --> between adjacent text nodes so IT can hydrate them
-  // later. Nothing here hydrates through React — Framer's own runtime adopts
-  // this DOM — so the separators are dead weight, and the last remaining
+  // later. Nothing here hydrates through React - Framer's own runtime adopts
+  // this DOM - so the separators are dead weight, and the last remaining
   // difference from the original bytes.
   body = body.replace(/<!-- -->/g, "");
 
@@ -104,8 +105,8 @@ export async function renderPage(page: Page, Component: ComponentType): Promise<
   // long before anyone knows which domain will serve this. Render time is when
   // that stops being true, so resolve them here: Google treats a relative
   // canonical as a weak signal and Lighthouse's canonical audit fails outright
-  // on one. Without an origin they stay relative — still correct, just weaker
-  // — so an export that is only ever run locally is unaffected.
+  // on one. Without an origin they stay relative - still correct, just weaker
+  // - so an export that is only ever run locally is unaffected.
   //
   // og:image and twitter:image get the same treatment for a harder reason:
   // a relative one is not a weaker signal, it is ignored outright. Facebook,
@@ -123,7 +124,11 @@ export async function renderPage(page: Page, Component: ComponentType): Promise<
         (_m, pre, path) => `${pre}"${SITE_ORIGIN}${path}"`
       );
 
-  const head = (SITE_ORIGIN ? absolutise(page.head) : page.head) + structuredDataFor(page);
+  // Both additions go last so they sit after Framer's stylesheet: the embed's
+  // CSS overrides Framer's fixed heights by source order, not by !important.
+  const extras = page.route === "/" ? calEmbed() : "";
+  const head =
+    (SITE_ORIGIN ? absolutise(page.head) : page.head) + extras + structuredDataFor(page);
 
   return `${page.prologue}<html${page.htmlAttrs}><head>${head}</head>${page.afterHead}${body}</html>`;
 }
