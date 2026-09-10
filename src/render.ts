@@ -10,6 +10,7 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import type { ComponentType } from "react";
+import { structuredData } from "./seo";
 
 export interface Page {
   route: string;
@@ -34,19 +35,23 @@ export function pageFor(file: string): Page {
   return page;
 }
 
+/** Where this site is published. Overridable, but no longer a guess. */
+const DEFAULT_ORIGIN = "https://clickstart.studio";
+
 /**
- * The origin this site will be served from, used to make canonical and og:url
- * absolute. Set SITE_URL to your own domain — that is the one answer that
+ * The origin this site will be served from, used to make canonical, og:url and
+ * og:image absolute. Set SITE_URL to override — that is the one answer that
  * survives preview deployments, which each get a different generated hostname
  * and must not advertise themselves as canonical.
  *
- * Falls back to Vercel's production domain, which is correct on Vercel and
- * absent everywhere else. Empty means "leave them relative".
+ * Falls back to Vercel's production domain, then to the production domain
+ * above. Empty means "leave them relative", which now only happens if someone
+ * sets SITE_URL to something unparseable.
  */
-const SITE_ORIGIN = (() => {
+export const SITE_ORIGIN = (() => {
   const raw = process.env.SITE_URL || process.env.NEXT_PUBLIC_SITE_URL;
   const vercel = process.env.VERCEL_PROJECT_PRODUCTION_URL;
-  const value = raw || (vercel ? `https://${vercel}` : "");
+  const value = raw || (vercel ? `https://${vercel}` : DEFAULT_ORIGIN);
   if (!value) return "";
   try {
     // Normalise away a trailing slash so `origin + "/about"` cannot double up.
@@ -55,6 +60,14 @@ const SITE_ORIGIN = (() => {
     return "";
   }
 })();
+
+/**
+ * JSON-LD for the home page only. The 404 is noindex, and describing the
+ * business on a page you have asked Google not to index is noise.
+ */
+function structuredDataFor(page: Page): string {
+  return page.route === "/" ? structuredData(SITE_ORIGIN) : "";
+}
 
 /** One page component -> the complete HTML document Framer would have served. */
 export async function renderPage(page: Page, Component: ComponentType): Promise<string> {
@@ -93,17 +106,24 @@ export async function renderPage(page: Page, Component: ComponentType): Promise<
   // canonical as a weak signal and Lighthouse's canonical audit fails outright
   // on one. Without an origin they stay relative — still correct, just weaker
   // — so an export that is only ever run locally is unaffected.
-  const head = SITE_ORIGIN
-    ? page.head
-        .replace(
-          /(<link\b[^>]*\brel=["']canonical["'][^>]*\bhref=)["'](\/[^"']*)["']/gi,
-          (_m, pre, path) => `${pre}"${SITE_ORIGIN}${path}"`
-        )
-        .replace(
-          /(<meta\b[^>]*\bproperty=["']og:url["'][^>]*\bcontent=)["'](\/[^"']*)["']/gi,
-          (_m, pre, path) => `${pre}"${SITE_ORIGIN}${path}"`
-        )
-    : page.head;
+  //
+  // og:image and twitter:image get the same treatment for a harder reason:
+  // a relative one is not a weaker signal, it is ignored outright. Facebook,
+  // Slack and X all fetch the card image out of band, with no page to resolve
+  // it against, so a link to a site whose og:image is "/assets/og.png" unfurls
+  // with no image at all.
+  const absolutise = (html: string) =>
+    html
+      .replace(
+        /(<link\b[^>]*\brel=["']canonical["'][^>]*\bhref=)["'](\/[^"']*)["']/gi,
+        (_m, pre, path) => `${pre}"${SITE_ORIGIN}${path}"`
+      )
+      .replace(
+        /(<meta\b[^>]*\b(?:property|name)=["'](?:og:url|og:image|twitter:image)["'][^>]*\bcontent=)["'](\/[^"']*)["']/gi,
+        (_m, pre, path) => `${pre}"${SITE_ORIGIN}${path}"`
+      );
+
+  const head = (SITE_ORIGIN ? absolutise(page.head) : page.head) + structuredDataFor(page);
 
   return `${page.prologue}<html${page.htmlAttrs}><head>${head}</head>${page.afterHead}${body}</html>`;
 }

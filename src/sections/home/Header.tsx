@@ -18,16 +18,16 @@ export default function Header() {
               </div>
               <div className="ssr-variant hidden-12ibufm hidden-ajyjij">
                 <div className="framer-blwqf7" data-framer-name="ClickStart placeholder logo" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-                  <h3 dir="auto" style={{ "--font-selector": "Q1VTVE9NVjI7SW50ZXIgVGlnaHQgU2VtaUJvbGQ=", "--framer-font-family": "\"Inter Tight SemiBold\", \"Inter Tight SemiBold Placeholder\", sans-serif", "--framer-font-size": "20px", "--framer-font-weight": "600", "--framer-letter-spacing": "-1px", "--framer-line-height": "1em", "--framer-text-color": "var(--token-8f2a02c2-6f36-454d-a523-0607b7f8cc20)" }} className="framer-text">
+                  <div dir="auto" style={{ "--font-selector": "Q1VTVE9NVjI7SW50ZXIgVGlnaHQgU2VtaUJvbGQ=", "--framer-font-family": "\"Inter Tight SemiBold\", \"Inter Tight SemiBold Placeholder\", sans-serif", "--framer-font-size": "20px", "--framer-font-weight": "600", "--framer-letter-spacing": "-1px", "--framer-line-height": "1em", "--framer-text-color": "var(--token-8f2a02c2-6f36-454d-a523-0607b7f8cc20)" }} className="framer-text">
                     {"clickstart."}
-                  </h3>
+                  </div>
                 </div>
               </div>
               <div className="ssr-variant hidden-72rtr7">
                 <div className="framer-blwqf7" data-framer-name="ClickStart placeholder logo" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-                  <h3 className="framer-text framer-styles-preset-1k5gyrp" data-styles-preset="qiSFrSK8M" dir="auto">
+                  <div className="framer-text framer-styles-preset-1k5gyrp" data-styles-preset="qiSFrSK8M" dir="auto">
                     {"clickstart."}
-                  </h3>
+                  </div>
                 </div>
               </div>
             </a>
@@ -42,9 +42,9 @@ export default function Header() {
                 </div>
               </div>
               <div className="framer-blwqf7" data-framer-name="ClickStart placeholder logo" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-                <h3 dir="auto" style={{ "--font-selector": "Q1VTVE9NVjI7SW50ZXIgVGlnaHQgU2VtaUJvbGQ=", "--framer-font-family": "\"Inter Tight SemiBold\", \"Inter Tight SemiBold Placeholder\", sans-serif", "--framer-font-size": "20px", "--framer-font-weight": "600", "--framer-letter-spacing": "-1px", "--framer-line-height": "1em", "--framer-text-color": "var(--token-8f2a02c2-6f36-454d-a523-0607b7f8cc20)" }} className="framer-text">
+                <div dir="auto" style={{ "--font-selector": "Q1VTVE9NVjI7SW50ZXIgVGlnaHQgU2VtaUJvbGQ=", "--framer-font-family": "\"Inter Tight SemiBold\", \"Inter Tight SemiBold Placeholder\", sans-serif", "--framer-font-size": "20px", "--framer-font-weight": "600", "--framer-letter-spacing": "-1px", "--framer-line-height": "1em", "--framer-text-color": "var(--token-8f2a02c2-6f36-454d-a523-0607b7f8cc20)" }} className="framer-text">
                   {"clickstart."}
-                </h3>
+                </div>
               </div>
             </a>
           </Suspense>
