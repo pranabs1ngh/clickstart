@@ -5,7 +5,7 @@
 // you want with your editor's search.
 //
 // Run `npm run prerender` (or `npm run build`) after editing. That is what
-// puts your text into the HTML the server sends — without it the change only
+// puts your text into the HTML the server sends - without it the change only
 // appears once JavaScript has run, which means a flash of the old text and
 // search engines still reading the old text.
 //
@@ -43,7 +43,7 @@ export const c = {
   starts_at: "starts at",
   t_2000: "$2000",
   clickstart: "clickstart.",
-  available_for_work: "AVAILABLE FOR WORK",
+  available_for_work: "ACCEPTING PROJECTS",
   design_studio: "Design studio",
   for_startups_saas_and_everything_in_betw: " for startups, SaaS, and everything in between.",
   we_design_and_build_websites_and_digital: "We design and build websites and digital products for teams that need to move. From kickoff to launch, the same team handles design and development every step of the way.",

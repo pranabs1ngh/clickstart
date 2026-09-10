@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 
 /** Generated from the Framer section "Studio split layout".
- *  Renders to the same DOM as the original — the Suspense boundaries here are
+ *  Renders to the same DOM as the original - the Suspense boundaries here are
  *  Framer's hydration markers, so removing them would break its runtime.
  *  Everything else is ordinary JSX: edit it like any other component. */
 export default function StudioSplitLayout() {
@@ -13,7 +13,7 @@ export default function StudioSplitLayout() {
             <div className="framer-1kzvog0" data-framer-name="Availability indicator" />
             <div className="framer-17od1pl" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
               <h5 className="framer-text framer-styles-preset-zlwqb5" data-styles-preset="Dtff2EAaU" dir="auto">
-                {"AVAILABLE FOR WORK"}
+                {"ACCEPTING PROJECTS"}
               </h5>
             </div>
           </div>
@@ -104,7 +104,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1b5el3b" data-framer-name="Variant 1" style={{ backgroundColor: "rgb(245, 245, 245)", height: "100%", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/975fa8507e70eee1.webp 512w, /assets/img/a89b172d53fbfd81.webp 1024w, /assets/img/0da9d0f2126602f1.webp 2048w, /assets/img/dda4a39480f5bb6a.webp 2160w" src="/assets/img/dda4a39480f5bb6a.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} loading="eager" fetchPriority="high" />
+                    <img width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/975fa8507e70eee1.webp 512w, /assets/img/a89b172d53fbfd81.webp 1024w, /assets/img/0da9d0f2126602f1.webp 2048w, /assets/img/dda4a39480f5bb6a.webp 2160w" src="/assets/img/dda4a39480f5bb6a.webp" alt="Scout: AI hiring platform homepage design, with the candidate dashboard and applicant tracking view" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} loading="eager" fetchPriority="high" />
                   </div>
                 </div>
               </div>
@@ -115,7 +115,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1naq3mj" data-framer-name="Tablet" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/975fa8507e70eee1.webp 512w, /assets/img/a89b172d53fbfd81.webp 1024w, /assets/img/0da9d0f2126602f1.webp 2048w, /assets/img/dda4a39480f5bb6a.webp 2160w" src="/assets/img/dda4a39480f5bb6a.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} loading="eager" />
+                    <img width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/975fa8507e70eee1.webp 512w, /assets/img/a89b172d53fbfd81.webp 1024w, /assets/img/0da9d0f2126602f1.webp 2048w, /assets/img/dda4a39480f5bb6a.webp 2160w" src="/assets/img/dda4a39480f5bb6a.webp" alt="Scout: AI hiring platform homepage design, with the candidate dashboard and applicant tracking view" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} loading="eager" />
                   </div>
                 </div>
               </div>
@@ -126,7 +126,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-16ha73w" data-framer-name="Mobile" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/975fa8507e70eee1.webp 512w, /assets/img/a89b172d53fbfd81.webp 1024w, /assets/img/0da9d0f2126602f1.webp 2048w, /assets/img/dda4a39480f5bb6a.webp 2160w" src="/assets/img/dda4a39480f5bb6a.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} loading="eager" />
+                    <img width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/975fa8507e70eee1.webp 512w, /assets/img/a89b172d53fbfd81.webp 1024w, /assets/img/0da9d0f2126602f1.webp 2048w, /assets/img/dda4a39480f5bb6a.webp 2160w" src="/assets/img/dda4a39480f5bb6a.webp" alt="Scout: AI hiring platform homepage design, with the candidate dashboard and applicant tracking view" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} loading="eager" />
                   </div>
                 </div>
               </div>
@@ -137,7 +137,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-6htdot" data-framer-name="Variant 2" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/975fa8507e70eee1.webp 512w, /assets/img/a89b172d53fbfd81.webp 1024w, /assets/img/0da9d0f2126602f1.webp 2048w, /assets/img/dda4a39480f5bb6a.webp 2160w" src="/assets/img/dda4a39480f5bb6a.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} loading="lazy" />
+                    <img decoding="async" width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/975fa8507e70eee1.webp 512w, /assets/img/a89b172d53fbfd81.webp 1024w, /assets/img/0da9d0f2126602f1.webp 2048w, /assets/img/dda4a39480f5bb6a.webp 2160w" src="/assets/img/dda4a39480f5bb6a.webp" alt="Scout: AI hiring platform homepage design, with the candidate dashboard and applicant tracking view" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} loading="lazy" />
                   </div>
                 </div>
               </div>
@@ -148,7 +148,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-6htdot" data-framer-name="Variant 2" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" width="2160" height="1853" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/2440b4b96e9f9019.webp 512w, /assets/img/d0d4b6dc1d88e342.webp 1024w, /assets/img/e27c818aabc8ef6c.webp 2048w, /assets/img/30f00aedae816537.webp 2160w" src="/assets/img/30f00aedae816537.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} loading="lazy" />
+                    <img decoding="async" width="2160" height="1853" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/2440b4b96e9f9019.webp 512w, /assets/img/d0d4b6dc1d88e342.webp 1024w, /assets/img/e27c818aabc8ef6c.webp 2048w, /assets/img/30f00aedae816537.webp 2160w" src="/assets/img/30f00aedae816537.webp" alt="PaperStack: research workspace landing page design, with the PDF reading and annotation interface" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} loading="lazy" />
                   </div>
                 </div>
               </div>
@@ -159,7 +159,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1naq3mj" data-framer-name="Tablet" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" width="2160" height="1853" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/2440b4b96e9f9019.webp 512w, /assets/img/d0d4b6dc1d88e342.webp 1024w, /assets/img/e27c818aabc8ef6c.webp 2048w, /assets/img/30f00aedae816537.webp 2160w" src="/assets/img/30f00aedae816537.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} loading="lazy" />
+                    <img decoding="async" width="2160" height="1853" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/2440b4b96e9f9019.webp 512w, /assets/img/d0d4b6dc1d88e342.webp 1024w, /assets/img/e27c818aabc8ef6c.webp 2048w, /assets/img/30f00aedae816537.webp 2160w" src="/assets/img/30f00aedae816537.webp" alt="PaperStack: research workspace landing page design, with the PDF reading and annotation interface" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} loading="lazy" />
                   </div>
                 </div>
               </div>
@@ -170,7 +170,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-16ha73w" data-framer-name="Mobile" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" width="2160" height="1853" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/2440b4b96e9f9019.webp 512w, /assets/img/d0d4b6dc1d88e342.webp 1024w, /assets/img/e27c818aabc8ef6c.webp 2048w, /assets/img/30f00aedae816537.webp 2160w" src="/assets/img/30f00aedae816537.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} loading="lazy" />
+                    <img decoding="async" width="2160" height="1853" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/2440b4b96e9f9019.webp 512w, /assets/img/d0d4b6dc1d88e342.webp 1024w, /assets/img/e27c818aabc8ef6c.webp 2048w, /assets/img/30f00aedae816537.webp 2160w" src="/assets/img/30f00aedae816537.webp" alt="PaperStack: research workspace landing page design, with the PDF reading and annotation interface" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} loading="lazy" />
                   </div>
                 </div>
               </div>
@@ -220,7 +220,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1b5el3b" data-framer-name="Variant 1" style={{ backgroundColor: "rgb(245, 245, 245)", height: "100%", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1920" height="1314" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/d125bbd0eaf04fdc.webp 512w, /assets/img/f37a58b5ba464b99.webp 1024w, /assets/img/78e5eaceec5b4f54.webp 1920w" src="/assets/img/78e5eaceec5b4f54.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1920" height="1314" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/d125bbd0eaf04fdc.webp 512w, /assets/img/f37a58b5ba464b99.webp 1024w, /assets/img/78e5eaceec5b4f54.webp 1920w" src="/assets/img/78e5eaceec5b4f54.webp" alt="Loop: sales CRM landing page design, with the deal pipeline board" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -231,7 +231,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1naq3mj" data-framer-name="Tablet" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1920" height="1314" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/d125bbd0eaf04fdc.webp 512w, /assets/img/f37a58b5ba464b99.webp 1024w, /assets/img/78e5eaceec5b4f54.webp 1920w" src="/assets/img/78e5eaceec5b4f54.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1920" height="1314" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/d125bbd0eaf04fdc.webp 512w, /assets/img/f37a58b5ba464b99.webp 1024w, /assets/img/78e5eaceec5b4f54.webp 1920w" src="/assets/img/78e5eaceec5b4f54.webp" alt="Loop: sales CRM landing page design, with the deal pipeline board" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -242,7 +242,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-16ha73w" data-framer-name="Mobile" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1920" height="1314" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/d125bbd0eaf04fdc.webp 512w, /assets/img/f37a58b5ba464b99.webp 1024w, /assets/img/78e5eaceec5b4f54.webp 1920w" src="/assets/img/78e5eaceec5b4f54.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1920" height="1314" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/d125bbd0eaf04fdc.webp 512w, /assets/img/f37a58b5ba464b99.webp 1024w, /assets/img/78e5eaceec5b4f54.webp 1920w" src="/assets/img/78e5eaceec5b4f54.webp" alt="Loop: sales CRM landing page design, with the deal pipeline board" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -253,7 +253,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-6htdot" data-framer-name="Variant 2" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1920" height="1314" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/d125bbd0eaf04fdc.webp 512w, /assets/img/f37a58b5ba464b99.webp 1024w, /assets/img/78e5eaceec5b4f54.webp 1920w" src="/assets/img/78e5eaceec5b4f54.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1920" height="1314" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/d125bbd0eaf04fdc.webp 512w, /assets/img/f37a58b5ba464b99.webp 1024w, /assets/img/78e5eaceec5b4f54.webp 1920w" src="/assets/img/78e5eaceec5b4f54.webp" alt="Loop: sales CRM landing page design, with the deal pipeline board" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -264,7 +264,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1b5el3b" data-framer-name="Variant 1" style={{ backgroundColor: "rgb(245, 245, 245)", height: "100%", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/449debd11557b658.webp 512w, /assets/img/2b47f3e66ebb68db.webp 1024w, /assets/img/0d08cfc355eef5aa.webp 2048w, /assets/img/34ad596b40d93222.webp 2160w" src="/assets/img/34ad596b40d93222.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/449debd11557b658.webp 512w, /assets/img/2b47f3e66ebb68db.webp 1024w, /assets/img/0d08cfc355eef5aa.webp 2048w, /assets/img/34ad596b40d93222.webp 2160w" src="/assets/img/34ad596b40d93222.webp" alt="PaperStack: research library and paper reader interface, with AI highlights and citation details" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -275,7 +275,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1naq3mj" data-framer-name="Tablet" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/449debd11557b658.webp 512w, /assets/img/2b47f3e66ebb68db.webp 1024w, /assets/img/0d08cfc355eef5aa.webp 2048w, /assets/img/34ad596b40d93222.webp 2160w" src="/assets/img/34ad596b40d93222.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/449debd11557b658.webp 512w, /assets/img/2b47f3e66ebb68db.webp 1024w, /assets/img/0d08cfc355eef5aa.webp 2048w, /assets/img/34ad596b40d93222.webp 2160w" src="/assets/img/34ad596b40d93222.webp" alt="PaperStack: research library and paper reader interface, with AI highlights and citation details" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -286,7 +286,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-16ha73w" data-framer-name="Mobile" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/449debd11557b658.webp 512w, /assets/img/2b47f3e66ebb68db.webp 1024w, /assets/img/0d08cfc355eef5aa.webp 2048w, /assets/img/34ad596b40d93222.webp 2160w" src="/assets/img/34ad596b40d93222.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/449debd11557b658.webp 512w, /assets/img/2b47f3e66ebb68db.webp 1024w, /assets/img/0d08cfc355eef5aa.webp 2048w, /assets/img/34ad596b40d93222.webp 2160w" src="/assets/img/34ad596b40d93222.webp" alt="PaperStack: research library and paper reader interface, with AI highlights and citation details" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -297,7 +297,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-6htdot" data-framer-name="Variant 2" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/449debd11557b658.webp 512w, /assets/img/2b47f3e66ebb68db.webp 1024w, /assets/img/0d08cfc355eef5aa.webp 2048w, /assets/img/34ad596b40d93222.webp 2160w" src="/assets/img/34ad596b40d93222.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/449debd11557b658.webp 512w, /assets/img/2b47f3e66ebb68db.webp 1024w, /assets/img/0d08cfc355eef5aa.webp 2048w, /assets/img/34ad596b40d93222.webp 2160w" src="/assets/img/34ad596b40d93222.webp" alt="PaperStack: research library and paper reader interface, with AI highlights and citation details" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -308,7 +308,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1b5el3b" data-framer-name="Variant 1" style={{ backgroundColor: "rgb(245, 245, 245)", height: "100%", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="1545" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/57ff794f345633b5.webp 512w, /assets/img/17395493f708a288.webp 1024w, /assets/img/905d822c6488e762.webp 2048w, /assets/img/192a88a0a0350327.webp 2160w" src="/assets/img/192a88a0a0350327.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="1545" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/57ff794f345633b5.webp 512w, /assets/img/17395493f708a288.webp 1024w, /assets/img/905d822c6488e762.webp 2048w, /assets/img/192a88a0a0350327.webp 2160w" src="/assets/img/192a88a0a0350327.webp" alt="Scout: hiring dashboard interface, with open roles, applicant metrics and AI candidate matches" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -319,7 +319,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1naq3mj" data-framer-name="Tablet" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="1545" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/57ff794f345633b5.webp 512w, /assets/img/17395493f708a288.webp 1024w, /assets/img/905d822c6488e762.webp 2048w, /assets/img/192a88a0a0350327.webp 2160w" src="/assets/img/192a88a0a0350327.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="1545" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/57ff794f345633b5.webp 512w, /assets/img/17395493f708a288.webp 1024w, /assets/img/905d822c6488e762.webp 2048w, /assets/img/192a88a0a0350327.webp 2160w" src="/assets/img/192a88a0a0350327.webp" alt="Scout: hiring dashboard interface, with open roles, applicant metrics and AI candidate matches" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -330,7 +330,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-16ha73w" data-framer-name="Mobile" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="1545" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/57ff794f345633b5.webp 512w, /assets/img/17395493f708a288.webp 1024w, /assets/img/905d822c6488e762.webp 2048w, /assets/img/192a88a0a0350327.webp 2160w" src="/assets/img/192a88a0a0350327.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="1545" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/57ff794f345633b5.webp 512w, /assets/img/17395493f708a288.webp 1024w, /assets/img/905d822c6488e762.webp 2048w, /assets/img/192a88a0a0350327.webp 2160w" src="/assets/img/192a88a0a0350327.webp" alt="Scout: hiring dashboard interface, with open roles, applicant metrics and AI candidate matches" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -341,7 +341,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-6htdot" data-framer-name="Variant 2" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="1545" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/57ff794f345633b5.webp 512w, /assets/img/17395493f708a288.webp 1024w, /assets/img/905d822c6488e762.webp 2048w, /assets/img/192a88a0a0350327.webp 2160w" src="/assets/img/192a88a0a0350327.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="1545" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/57ff794f345633b5.webp 512w, /assets/img/17395493f708a288.webp 1024w, /assets/img/905d822c6488e762.webp 2048w, /assets/img/192a88a0a0350327.webp 2160w" src="/assets/img/192a88a0a0350327.webp" alt="Scout: hiring dashboard interface, with open roles, applicant metrics and AI candidate matches" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -352,7 +352,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-6htdot" data-framer-name="Variant 2" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="1892" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/b3986ecbdd5d746c.webp 512w, /assets/img/2d8443d624cf3267.webp 1024w, /assets/img/8f8b3a94649d4dd2.webp 2048w, /assets/img/5aa09d1db994f258.webp 2160w" src="/assets/img/5aa09d1db994f258.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="1892" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/b3986ecbdd5d746c.webp 512w, /assets/img/2d8443d624cf3267.webp 1024w, /assets/img/8f8b3a94649d4dd2.webp 2048w, /assets/img/5aa09d1db994f258.webp 2160w" src="/assets/img/5aa09d1db994f258.webp" alt="Scout: better matches feature section, with three product screenshots over landscape photography" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -363,7 +363,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1naq3mj" data-framer-name="Tablet" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="1892" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/b3986ecbdd5d746c.webp 512w, /assets/img/2d8443d624cf3267.webp 1024w, /assets/img/8f8b3a94649d4dd2.webp 2048w, /assets/img/5aa09d1db994f258.webp 2160w" src="/assets/img/5aa09d1db994f258.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="1892" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/b3986ecbdd5d746c.webp 512w, /assets/img/2d8443d624cf3267.webp 1024w, /assets/img/8f8b3a94649d4dd2.webp 2048w, /assets/img/5aa09d1db994f258.webp 2160w" src="/assets/img/5aa09d1db994f258.webp" alt="Scout: better matches feature section, with three product screenshots over landscape photography" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -374,7 +374,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-16ha73w" data-framer-name="Mobile" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="1892" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/b3986ecbdd5d746c.webp 512w, /assets/img/2d8443d624cf3267.webp 1024w, /assets/img/8f8b3a94649d4dd2.webp 2048w, /assets/img/5aa09d1db994f258.webp 2160w" src="/assets/img/5aa09d1db994f258.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="1892" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/b3986ecbdd5d746c.webp 512w, /assets/img/2d8443d624cf3267.webp 1024w, /assets/img/8f8b3a94649d4dd2.webp 2048w, /assets/img/5aa09d1db994f258.webp 2160w" src="/assets/img/5aa09d1db994f258.webp" alt="Scout: better matches feature section, with three product screenshots over landscape photography" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -385,7 +385,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-6htdot" data-framer-name="Variant 2" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="2088" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/6ce005fb0e16fb57.webp 512w, /assets/img/e32a8d659ac50e24.webp 1024w, /assets/img/e5ff399827acd4a4.webp 2048w, /assets/img/07b8b2210c8915b7.webp 2160w" src="/assets/img/07b8b2210c8915b7.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="2088" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/6ce005fb0e16fb57.webp 512w, /assets/img/e32a8d659ac50e24.webp 1024w, /assets/img/e5ff399827acd4a4.webp 2048w, /assets/img/07b8b2210c8915b7.webp 2160w" src="/assets/img/07b8b2210c8915b7.webp" alt="Scout: dark-theme feature section, covering job setup and AI candidate scoring" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -396,7 +396,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1naq3mj" data-framer-name="Tablet" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="2088" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/6ce005fb0e16fb57.webp 512w, /assets/img/e32a8d659ac50e24.webp 1024w, /assets/img/e5ff399827acd4a4.webp 2048w, /assets/img/07b8b2210c8915b7.webp 2160w" src="/assets/img/07b8b2210c8915b7.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="2088" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/6ce005fb0e16fb57.webp 512w, /assets/img/e32a8d659ac50e24.webp 1024w, /assets/img/e5ff399827acd4a4.webp 2048w, /assets/img/07b8b2210c8915b7.webp 2160w" src="/assets/img/07b8b2210c8915b7.webp" alt="Scout: dark-theme feature section, covering job setup and AI candidate scoring" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -407,7 +407,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-16ha73w" data-framer-name="Mobile" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="2088" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/6ce005fb0e16fb57.webp 512w, /assets/img/e32a8d659ac50e24.webp 1024w, /assets/img/e5ff399827acd4a4.webp 2048w, /assets/img/07b8b2210c8915b7.webp 2160w" src="/assets/img/07b8b2210c8915b7.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="2088" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/6ce005fb0e16fb57.webp 512w, /assets/img/e32a8d659ac50e24.webp 1024w, /assets/img/e5ff399827acd4a4.webp 2048w, /assets/img/07b8b2210c8915b7.webp 2160w" src="/assets/img/07b8b2210c8915b7.webp" alt="Scout: dark-theme feature section, covering job setup and AI candidate scoring" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -418,7 +418,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1b5el3b" data-framer-name="Variant 1" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/cda77cf486a0f7dd.webp 512w, /assets/img/4399b20c7737d695.webp 1024w, /assets/img/292bf0d585812ec4.webp 2048w, /assets/img/4099872a735736f4.webp 2160w" src="/assets/img/4099872a735736f4.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/cda77cf486a0f7dd.webp 512w, /assets/img/4399b20c7737d695.webp 1024w, /assets/img/292bf0d585812ec4.webp 2048w, /assets/img/4099872a735736f4.webp 2160w" src="/assets/img/4099872a735736f4.webp" alt="Finley: AI personal finance app landing page, with the mobile spending and insights screens" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -429,7 +429,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1naq3mj" data-framer-name="Tablet" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/cda77cf486a0f7dd.webp 512w, /assets/img/4399b20c7737d695.webp 1024w, /assets/img/292bf0d585812ec4.webp 2048w, /assets/img/4099872a735736f4.webp 2160w" src="/assets/img/4099872a735736f4.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/cda77cf486a0f7dd.webp 512w, /assets/img/4399b20c7737d695.webp 1024w, /assets/img/292bf0d585812ec4.webp 2048w, /assets/img/4099872a735736f4.webp 2160w" src="/assets/img/4099872a735736f4.webp" alt="Finley: AI personal finance app landing page, with the mobile spending and insights screens" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -440,7 +440,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-16ha73w" data-framer-name="Mobile" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/cda77cf486a0f7dd.webp 512w, /assets/img/4399b20c7737d695.webp 1024w, /assets/img/292bf0d585812ec4.webp 2048w, /assets/img/4099872a735736f4.webp 2160w" src="/assets/img/4099872a735736f4.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/cda77cf486a0f7dd.webp 512w, /assets/img/4399b20c7737d695.webp 1024w, /assets/img/292bf0d585812ec4.webp 2048w, /assets/img/4099872a735736f4.webp 2160w" src="/assets/img/4099872a735736f4.webp" alt="Finley: AI personal finance app landing page, with the mobile spending and insights screens" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -451,7 +451,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-6htdot" data-framer-name="Variant 2" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/cda77cf486a0f7dd.webp 512w, /assets/img/4399b20c7737d695.webp 1024w, /assets/img/292bf0d585812ec4.webp 2048w, /assets/img/4099872a735736f4.webp 2160w" src="/assets/img/4099872a735736f4.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="1536" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/cda77cf486a0f7dd.webp 512w, /assets/img/4399b20c7737d695.webp 1024w, /assets/img/292bf0d585812ec4.webp 2048w, /assets/img/4099872a735736f4.webp 2160w" src="/assets/img/4099872a735736f4.webp" alt="Finley: AI personal finance app landing page, with the mobile spending and insights screens" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -462,7 +462,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1b5el3b" data-framer-name="Variant 1" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1440" height="923" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/22f6cadd9cea7ff3.webp 512w, /assets/img/a5b5d5f38ed2654f.webp 1024w, /assets/img/c465aaa136a59a8d.webp 1440w" src="/assets/img/c465aaa136a59a8d.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1440" height="923" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/22f6cadd9cea7ff3.webp 512w, /assets/img/a5b5d5f38ed2654f.webp 1024w, /assets/img/c465aaa136a59a8d.webp 1440w" src="/assets/img/c465aaa136a59a8d.webp" alt="Scout: site footer design, with an oversized wordmark set over forest photography" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -473,7 +473,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1naq3mj" data-framer-name="Tablet" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1440" height="923" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/22f6cadd9cea7ff3.webp 512w, /assets/img/a5b5d5f38ed2654f.webp 1024w, /assets/img/c465aaa136a59a8d.webp 1440w" src="/assets/img/c465aaa136a59a8d.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1440" height="923" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/22f6cadd9cea7ff3.webp 512w, /assets/img/a5b5d5f38ed2654f.webp 1024w, /assets/img/c465aaa136a59a8d.webp 1440w" src="/assets/img/c465aaa136a59a8d.webp" alt="Scout: site footer design, with an oversized wordmark set over forest photography" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -484,7 +484,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-16ha73w" data-framer-name="Mobile" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1440" height="923" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/22f6cadd9cea7ff3.webp 512w, /assets/img/a5b5d5f38ed2654f.webp 1024w, /assets/img/c465aaa136a59a8d.webp 1440w" src="/assets/img/c465aaa136a59a8d.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1440" height="923" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/22f6cadd9cea7ff3.webp 512w, /assets/img/a5b5d5f38ed2654f.webp 1024w, /assets/img/c465aaa136a59a8d.webp 1440w" src="/assets/img/c465aaa136a59a8d.webp" alt="Scout: site footer design, with an oversized wordmark set over forest photography" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -495,7 +495,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-6htdot" data-framer-name="Variant 2" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1440" height="923" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/22f6cadd9cea7ff3.webp 512w, /assets/img/a5b5d5f38ed2654f.webp 1024w, /assets/img/c465aaa136a59a8d.webp 1440w" src="/assets/img/c465aaa136a59a8d.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1440" height="923" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/22f6cadd9cea7ff3.webp 512w, /assets/img/a5b5d5f38ed2654f.webp 1024w, /assets/img/c465aaa136a59a8d.webp 1440w" src="/assets/img/c465aaa136a59a8d.webp" alt="Scout: site footer design, with an oversized wordmark set over forest photography" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -506,7 +506,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-6htdot" data-framer-name="Variant 2" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="2162" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/db8ad8b1e473c4f6.webp 1023w, /assets/img/c61ee4a6a162ea2a.webp 2046w, /assets/img/cb4324951d81e363.webp 2160w" src="/assets/img/cb4324951d81e363.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="2162" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/db8ad8b1e473c4f6.webp 1023w, /assets/img/c61ee4a6a162ea2a.webp 2046w, /assets/img/cb4324951d81e363.webp 2160w" src="/assets/img/cb4324951d81e363.webp" alt="PaperStack: feature section covering the PDF reader, AI research assistant and writing tools" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -517,7 +517,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1naq3mj" data-framer-name="Tablet" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="2162" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/db8ad8b1e473c4f6.webp 1023w, /assets/img/c61ee4a6a162ea2a.webp 2046w, /assets/img/cb4324951d81e363.webp 2160w" src="/assets/img/cb4324951d81e363.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="2162" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/db8ad8b1e473c4f6.webp 1023w, /assets/img/c61ee4a6a162ea2a.webp 2046w, /assets/img/cb4324951d81e363.webp 2160w" src="/assets/img/cb4324951d81e363.webp" alt="PaperStack: feature section covering the PDF reader, AI research assistant and writing tools" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -528,7 +528,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-16ha73w" data-framer-name="Mobile" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="2160" height="2162" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/db8ad8b1e473c4f6.webp 1023w, /assets/img/c61ee4a6a162ea2a.webp 2046w, /assets/img/cb4324951d81e363.webp 2160w" src="/assets/img/cb4324951d81e363.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="2160" height="2162" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/db8ad8b1e473c4f6.webp 1023w, /assets/img/c61ee4a6a162ea2a.webp 2046w, /assets/img/cb4324951d81e363.webp 2160w" src="/assets/img/cb4324951d81e363.webp" alt="PaperStack: feature section covering the PDF reader, AI research assistant and writing tools" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -539,7 +539,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1b5el3b" data-framer-name="Variant 1" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1920" height="1734" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/3c145b70d7f5c66b.webp 512w, /assets/img/6809767d06dcd389.webp 1024w, /assets/img/877c58dfb4018928.webp 1920w" src="/assets/img/877c58dfb4018928.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1920" height="1734" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/3c145b70d7f5c66b.webp 512w, /assets/img/6809767d06dcd389.webp 1024w, /assets/img/877c58dfb4018928.webp 1920w" src="/assets/img/877c58dfb4018928.webp" alt="Fellow: AI meeting notes landing page, with the call recap and action items panel" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -550,7 +550,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1naq3mj" data-framer-name="Tablet" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1920" height="1734" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/3c145b70d7f5c66b.webp 512w, /assets/img/6809767d06dcd389.webp 1024w, /assets/img/877c58dfb4018928.webp 1920w" src="/assets/img/877c58dfb4018928.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1920" height="1734" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/3c145b70d7f5c66b.webp 512w, /assets/img/6809767d06dcd389.webp 1024w, /assets/img/877c58dfb4018928.webp 1920w" src="/assets/img/877c58dfb4018928.webp" alt="Fellow: AI meeting notes landing page, with the call recap and action items panel" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -561,7 +561,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-16ha73w" data-framer-name="Mobile" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1920" height="1734" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/3c145b70d7f5c66b.webp 512w, /assets/img/6809767d06dcd389.webp 1024w, /assets/img/877c58dfb4018928.webp 1920w" src="/assets/img/877c58dfb4018928.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1920" height="1734" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/3c145b70d7f5c66b.webp 512w, /assets/img/6809767d06dcd389.webp 1024w, /assets/img/877c58dfb4018928.webp 1920w" src="/assets/img/877c58dfb4018928.webp" alt="Fellow: AI meeting notes landing page, with the call recap and action items panel" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -572,7 +572,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-6htdot" data-framer-name="Variant 2" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1920" height="1734" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/3c145b70d7f5c66b.webp 512w, /assets/img/6809767d06dcd389.webp 1024w, /assets/img/877c58dfb4018928.webp 1920w" src="/assets/img/877c58dfb4018928.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1920" height="1734" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/3c145b70d7f5c66b.webp 512w, /assets/img/6809767d06dcd389.webp 1024w, /assets/img/877c58dfb4018928.webp 1920w" src="/assets/img/877c58dfb4018928.webp" alt="Fellow: AI meeting notes landing page, with the call recap and action items panel" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -583,7 +583,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1b5el3b" data-framer-name="Variant 1" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1920" height="1248" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/1b144c5ebb2e86a8.webp 512w, /assets/img/dbbd9fb590761db0.webp 1024w, /assets/img/3d0087c5743c8983.webp 1920w" src="/assets/img/3d0087c5743c8983.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1920" height="1248" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/1b144c5ebb2e86a8.webp 512w, /assets/img/dbbd9fb590761db0.webp 1024w, /assets/img/3d0087c5743c8983.webp 1920w" src="/assets/img/3d0087c5743c8983.webp" alt="Atoms: agentic AI product builder landing page, with the dark prompt composer" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -594,7 +594,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1naq3mj" data-framer-name="Tablet" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1920" height="1248" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/1b144c5ebb2e86a8.webp 512w, /assets/img/dbbd9fb590761db0.webp 1024w, /assets/img/3d0087c5743c8983.webp 1920w" src="/assets/img/3d0087c5743c8983.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1920" height="1248" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/1b144c5ebb2e86a8.webp 512w, /assets/img/dbbd9fb590761db0.webp 1024w, /assets/img/3d0087c5743c8983.webp 1920w" src="/assets/img/3d0087c5743c8983.webp" alt="Atoms: agentic AI product builder landing page, with the dark prompt composer" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -605,7 +605,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-16ha73w" data-framer-name="Mobile" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1920" height="1248" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/1b144c5ebb2e86a8.webp 512w, /assets/img/dbbd9fb590761db0.webp 1024w, /assets/img/3d0087c5743c8983.webp 1920w" src="/assets/img/3d0087c5743c8983.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1920" height="1248" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/1b144c5ebb2e86a8.webp 512w, /assets/img/dbbd9fb590761db0.webp 1024w, /assets/img/3d0087c5743c8983.webp 1920w" src="/assets/img/3d0087c5743c8983.webp" alt="Atoms: agentic AI product builder landing page, with the dark prompt composer" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -616,7 +616,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-6htdot" data-framer-name="Variant 2" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1920" height="1248" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/1b144c5ebb2e86a8.webp 512w, /assets/img/dbbd9fb590761db0.webp 1024w, /assets/img/3d0087c5743c8983.webp 1920w" src="/assets/img/3d0087c5743c8983.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1920" height="1248" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/1b144c5ebb2e86a8.webp 512w, /assets/img/dbbd9fb590761db0.webp 1024w, /assets/img/3d0087c5743c8983.webp 1920w" src="/assets/img/3d0087c5743c8983.webp" alt="Atoms: agentic AI product builder landing page, with the dark prompt composer" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -627,7 +627,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1b5el3b" data-framer-name="Variant 1" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1920" height="1248" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/88938624fda4c642.webp 512w, /assets/img/a31d5140290db401.webp 1024w, /assets/img/3a6111854776c421.webp 1920w" src="/assets/img/3a6111854776c421.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1920" height="1248" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/88938624fda4c642.webp 512w, /assets/img/a31d5140290db401.webp 1024w, /assets/img/3a6111854776c421.webp 1920w" src="/assets/img/3a6111854776c421.webp" alt="SaaS landing page design for turning meeting notes into automated workflows, with the workspace timeline view" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -638,7 +638,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-1naq3mj" data-framer-name="Tablet" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1920" height="1248" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/88938624fda4c642.webp 512w, /assets/img/a31d5140290db401.webp 1024w, /assets/img/3a6111854776c421.webp 1920w" src="/assets/img/3a6111854776c421.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1920" height="1248" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/88938624fda4c642.webp 512w, /assets/img/a31d5140290db401.webp 1024w, /assets/img/3a6111854776c421.webp 1920w" src="/assets/img/3a6111854776c421.webp" alt="SaaS landing page design for turning meeting notes into automated workflows, with the workspace timeline view" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -649,7 +649,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-16ha73w" data-framer-name="Mobile" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1920" height="1248" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/88938624fda4c642.webp 512w, /assets/img/a31d5140290db401.webp 1024w, /assets/img/3a6111854776c421.webp 1920w" src="/assets/img/3a6111854776c421.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1920" height="1248" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/88938624fda4c642.webp 512w, /assets/img/a31d5140290db401.webp 1024w, /assets/img/3a6111854776c421.webp 1920w" src="/assets/img/3a6111854776c421.webp" alt="SaaS landing page design for turning meeting notes into automated workflows, with the workspace timeline view" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -660,7 +660,7 @@ export default function StudioSplitLayout() {
               <div className="framer-u7j9R framer-1b5el3b framer-v-6htdot" data-framer-name="Variant 2" style={{ backgroundColor: "rgb(245, 245, 245)", width: "100%" }}>
                 <div className="framer-1xoaqou">
                   <div style={{ position: "absolute", borderRadius: "inherit", cornerShape: "inherit", top: "0", right: "0", bottom: "0", left: "0" }} data-framer-background-image-wrapper="true">
-                    <img decoding="async" loading="lazy" width="1920" height="1248" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/88938624fda4c642.webp 512w, /assets/img/a31d5140290db401.webp 1024w, /assets/img/3a6111854776c421.webp 1920w" src="/assets/img/3a6111854776c421.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
+                    <img decoding="async" loading="lazy" width="1920" height="1248" sizes="(min-width: 1200px) and (max-width: 1399.98px) 577px, (min-width: 810px) and (max-width: 1199.98px) 358px, (max-width: 809.98px) 334px, (min-width: 1400px) 577px" srcSet="/assets/img/88938624fda4c642.webp 512w, /assets/img/a31d5140290db401.webp 1024w, /assets/img/3a6111854776c421.webp 1920w" src="/assets/img/3a6111854776c421.webp" alt="SaaS landing page design for turning meeting notes into automated workflows, with the workspace timeline view" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "contain" }} />
                   </div>
                 </div>
               </div>
@@ -670,9 +670,9 @@ export default function StudioSplitLayout() {
         <div className="framer-14wuho6" data-border="true" data-framer-name="Pricing" id="pricing">
           <div className="framer-xvimie" data-framer-name="Pricing introduction">
             <div className="framer-12gnx6q" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-              <h1 className="framer-text framer-styles-preset-18id3hq" data-styles-preset="VGdxg7reI" dir="auto" style={{ "--framer-text-alignment": "center" }}>
+              <h2 className="framer-text framer-styles-preset-18id3hq" data-styles-preset="VGdxg7reI" dir="auto" style={{ "--framer-text-alignment": "center" }}>
                 {"Ready to ClickStart?"}
-              </h1>
+              </h2>
             </div>
             <div className="framer-j5q5wf" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
               <p className="framer-text framer-styles-preset-1catpqd" data-styles-preset="G3i35QUhG" dir="auto" style={{ "--framer-text-alignment": "center" }}>
@@ -1652,9 +1652,9 @@ export default function StudioSplitLayout() {
         <div className="framer-10sopgg" data-framer-name="Book a call" id="book-call">
           <div className="framer-1dn07v4">
             <div className="framer-1od3wli" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-              <h1 className="framer-text framer-styles-preset-18id3hq" data-styles-preset="VGdxg7reI" dir="auto" style={{ "--framer-text-alignment": "center" }}>
+              <h2 className="framer-text framer-styles-preset-18id3hq" data-styles-preset="VGdxg7reI" dir="auto" style={{ "--framer-text-alignment": "center" }}>
                 {"Let’s make something great."}
-              </h1>
+              </h2>
             </div>
             <div className="framer-1cogp2v" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
               <p className="framer-text framer-styles-preset-1catpqd" data-styles-preset="G3i35QUhG" dir="auto" style={{ "--framer-text-alignment": "center" }}>
@@ -1664,15 +1664,13 @@ export default function StudioSplitLayout() {
           </div>
           <div className="framer-395ilt-container">
             <Suspense fallback={null}>
-              <div className="ssr-variant hidden-12ibufm hidden-ajyjij hidden-kz14hy">
-                <iframe src="https://cal.com/clickstart.studio/15mins" style={{ width: "100%", height: "100%", border: "none", zoom: "0.7", borderRadius: "0px", transformOrigin: "top center" }} loading="lazy" fetchPriority="auto" referrerpolicy="no-referrer" sandbox="allow-same-origin allow-scripts allow-downloads allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" allowFullScreen allow="presentation; fullscreen; accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; clipboard-write" />
-              </div>
-              <div className="ssr-variant hidden-ajyjij hidden-72rtr7">
-                <iframe src="https://cal.com/clickstart.studio/15mins" style={{ width: "100%", height: "100%", border: "none", zoom: "0.8", borderRadius: "0px", transformOrigin: "top center" }} loading="lazy" fetchPriority="auto" referrerpolicy="no-referrer" sandbox="allow-same-origin allow-scripts allow-downloads allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" allowFullScreen allow="presentation; fullscreen; accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; clipboard-write" />
-              </div>
-              <div className="ssr-variant hidden-12ibufm hidden-kz14hy hidden-72rtr7">
-                <iframe src="https://cal.com/clickstart.studio/15mins" style={{ width: "100%", height: "100%", border: "none", zoom: "0.5", borderRadius: "0px", transformOrigin: "top center" }} loading="lazy" fetchPriority="auto" referrerpolicy="no-referrer" sandbox="allow-same-origin allow-scripts allow-downloads allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-presentation allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" allowFullScreen allow="presentation; fullscreen; accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; clipboard-write" />
-              </div>
+              {/* Filled by cal.com's embed script, which sizes the iframe to
+                  its real content height. Framer's URL embed could not: it
+                  pinned a fixed height per breakpoint and scaled the page down
+                  with CSS zoom. See src/cal-embed.ts, and the matching patch in
+                  public/assets/framer/shared-lib.*.mjs - the runtime
+                  re-renders this node, so both have to agree. */}
+              <div id="cal-booking" style={{ width: "100%" }} />
             </Suspense>
           </div>
         </div>
