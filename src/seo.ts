@@ -3,9 +3,10 @@
 // Framer publishes none, so search engines have to infer what this business is
 // from prose alone. The graph below states it outright: who the studio is, how
 // to reach it, and what the two packages on the pricing section actually cost.
-// Every figure here mirrors the rendered page - if the pricing section changes,
-// change it here too, because contradicting your own page is worse than saying
-// nothing.
+// The prices come from src/pricing.ts, the same module the pricing section
+// renders from, so the two cannot contradict each other.
+
+import { LANDING_PAGE_PRICE, RETAINER_PRICE } from "./pricing";
 
 const EMAIL = "youakanksha@gmail.com";
 const TWITTER = "https://x.com/uiakanksha_";
@@ -54,15 +55,15 @@ export function structuredData(origin: string): string {
                 "A high-impact landing page for startups and teams, designed to " +
                 "convert. Desktop and mobile, Figma source, interactive prototype, " +
                 "up to two revision rounds, 15-20 day turnaround.",
-              price: "1000",
+              price: String(LANDING_PAGE_PRICE),
               priceCurrency: "USD",
               priceSpecification: {
                 "@type": "PriceSpecification",
-                price: "1000",
+                price: String(LANDING_PAGE_PRICE),
                 priceCurrency: "USD",
                 valueAddedTaxIncluded: false,
-                // The page says "starts at $1000".
-                minPrice: "1000",
+                // The page says "starts at $<LANDING_PAGE_PRICE>".
+                minPrice: String(LANDING_PAGE_PRICE),
               },
               itemOffered: {
                 "@type": "Service",
@@ -77,11 +78,11 @@ export function structuredData(origin: string): string {
                 "A dedicated design partner for ongoing UI/UX work across websites, " +
                 "landing pages and product design. One active request at a time, " +
                 "unlimited revisions, development included.",
-              price: "3499",
+              price: String(RETAINER_PRICE),
               priceCurrency: "USD",
               priceSpecification: {
                 "@type": "UnitPriceSpecification",
-                price: "3499",
+                price: String(RETAINER_PRICE),
                 priceCurrency: "USD",
                 unitCode: "MON",
               },
