@@ -1,4 +1,5 @@
 import React, { Suspense } from "react";
+import { LANDING_PAGE_PRICE, RETAINER_PRICE } from "../../pricing";
 
 /** Generated from the Framer section "Studio split layout".
  *  Renders to the same DOM as the original - the Suspense boundaries here are
@@ -59,18 +60,6 @@ export default function StudioSplitLayout() {
           </div>
         </div>
         <div className="framer-9alnx7" data-framer-name="Studio details">
-          <div className="framer-14p0lnt" data-framer-name="Client experience">
-            <div className="framer-15c09cm" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-              <h5 className="framer-text framer-styles-preset-zlwqb5" data-styles-preset="Dtff2EAaU" dir="auto">
-                {"CLIENT EXPERIENCE:"}
-              </h5>
-            </div>
-            <div className="framer-af2ohe" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-              <p className="framer-text framer-styles-preset-1catpqd" data-styles-preset="G3i35QUhG" dir="auto">
-                {"Experience across startups, SaaS & digital products"}
-              </p>
-            </div>
-          </div>
           <div className="framer-1rz33mx" data-framer-name="Services">
             <div className="framer-9wh3gm" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
               <p dir="auto" style={{ "--font-selector": "Q1VTVE9NVjI7SW50ZXIgVGlnaHQgUmVndWxhcg==", "--framer-font-family": "\"Inter Tight Regular\", \"Inter Tight Regular Placeholder\", sans-serif", "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on", "--framer-font-size": "14px", "--framer-letter-spacing": "-0.21px", "--framer-text-color": "var(--token-ad4fa735-38be-4b3b-a235-fb73181c10dd)" }} className="framer-text">
@@ -671,7 +660,7 @@ export default function StudioSplitLayout() {
           <div className="framer-xvimie" data-framer-name="Pricing introduction">
             <div className="framer-12gnx6q" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
               <h2 className="framer-text framer-styles-preset-18id3hq" data-styles-preset="VGdxg7reI" dir="auto" style={{ "--framer-text-alignment": "center" }}>
-                {"Ready to ClickStart?"}
+                {"Ready to Curvex?"}
               </h2>
             </div>
             <div className="framer-j5q5wf" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
@@ -704,7 +693,7 @@ export default function StudioSplitLayout() {
                     </div>
                     <div className="framer-1p0743w" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-8f2a02c2-6f36-454d-a523-0607b7f8cc20)", transform: "none" }}>
                       <p dir="auto" className="framer-text" style={{ "--font-selector": "Q1VTVE9NVjI7SW50ZXIgVGlnaHQgTWVkaXVt", "--framer-font-family": "\"Inter Tight Medium\", \"Inter Tight Medium Placeholder\", sans-serif", "--framer-font-size": "28px", "--framer-font-weight": "500", "--framer-letter-spacing": "-1.5px", "--framer-line-height": "1em", "--framer-text-color": "var(--extracted-r6o4lv, var(--token-8f2a02c2-6f36-454d-a523-0607b7f8cc20))" }}>
-                        {"$1000"}
+                        {`$${LANDING_PAGE_PRICE}`}
                       </p>
                     </div>
                   </div>
@@ -863,7 +852,7 @@ export default function StudioSplitLayout() {
                     </div>
                     <div className="framer-1p0743w" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-8f2a02c2-6f36-454d-a523-0607b7f8cc20)", transform: "none" }}>
                       <p dir="auto" className="framer-text" style={{ "--font-selector": "Q1VTVE9NVjI7SW50ZXIgVGlnaHQgTWVkaXVt", "--framer-font-family": "\"Inter Tight Medium\", \"Inter Tight Medium Placeholder\", sans-serif", "--framer-font-size": "28px", "--framer-font-weight": "500", "--framer-letter-spacing": "-1.5px", "--framer-line-height": "1em", "--framer-text-color": "var(--extracted-r6o4lv, var(--token-8f2a02c2-6f36-454d-a523-0607b7f8cc20))" }}>
-                        {"$1000"}
+                        {`$${LANDING_PAGE_PRICE}`}
                       </p>
                     </div>
                   </div>
@@ -1022,7 +1011,7 @@ export default function StudioSplitLayout() {
                     </div>
                     <div className="framer-1p0743w" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-8f2a02c2-6f36-454d-a523-0607b7f8cc20)", transform: "none" }}>
                       <p dir="auto" className="framer-text" style={{ "--font-selector": "Q1VTVE9NVjI7SW50ZXIgVGlnaHQgTWVkaXVt", "--framer-font-family": "\"Inter Tight Medium\", \"Inter Tight Medium Placeholder\", sans-serif", "--framer-font-size": "28px", "--framer-font-weight": "500", "--framer-letter-spacing": "-1.5px", "--framer-line-height": "1em", "--framer-text-color": "var(--extracted-r6o4lv, var(--token-8f2a02c2-6f36-454d-a523-0607b7f8cc20))" }}>
-                        {"$1000"}
+                        {`$${LANDING_PAGE_PRICE}`}
                       </p>
                     </div>
                   </div>
@@ -1181,7 +1170,7 @@ export default function StudioSplitLayout() {
                     </div>
                     <div className="framer-1p0743w" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-8f2a02c2-6f36-454d-a523-0607b7f8cc20)", transform: "none" }}>
                       <p dir="auto" className="framer-text" style={{ "--font-selector": "Q1VTVE9NVjI7SW50ZXIgVGlnaHQgTWVkaXVt", "--framer-font-family": "\"Inter Tight Medium\", \"Inter Tight Medium Placeholder\", sans-serif", "--framer-font-size": "28px", "--framer-font-weight": "500", "--framer-letter-spacing": "-1.5px", "--framer-line-height": "1em", "--framer-text-color": "var(--extracted-r6o4lv, var(--token-8f2a02c2-6f36-454d-a523-0607b7f8cc20))" }}>
-                        {"$3499"}
+                        {`$${RETAINER_PRICE}`}
                       </p>
                     </div>
                   </div>
@@ -1344,7 +1333,7 @@ export default function StudioSplitLayout() {
                     </div>
                     <div className="framer-1p0743w" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-8f2a02c2-6f36-454d-a523-0607b7f8cc20)", transform: "none" }}>
                       <p dir="auto" className="framer-text" style={{ "--font-selector": "Q1VTVE9NVjI7SW50ZXIgVGlnaHQgTWVkaXVt", "--framer-font-family": "\"Inter Tight Medium\", \"Inter Tight Medium Placeholder\", sans-serif", "--framer-font-size": "28px", "--framer-font-weight": "500", "--framer-letter-spacing": "-1.5px", "--framer-line-height": "1em", "--framer-text-color": "var(--extracted-r6o4lv, var(--token-8f2a02c2-6f36-454d-a523-0607b7f8cc20))" }}>
-                        {"$3499"}
+                        {`$${RETAINER_PRICE}`}
                       </p>
                     </div>
                   </div>
@@ -1507,7 +1496,7 @@ export default function StudioSplitLayout() {
                     </div>
                     <div className="framer-1p0743w" data-framer-component-type="RichTextContainer" style={{ "--extracted-r6o4lv": "var(--token-8f2a02c2-6f36-454d-a523-0607b7f8cc20)", transform: "none" }}>
                       <p dir="auto" className="framer-text" style={{ "--font-selector": "Q1VTVE9NVjI7SW50ZXIgVGlnaHQgTWVkaXVt", "--framer-font-family": "\"Inter Tight Medium\", \"Inter Tight Medium Placeholder\", sans-serif", "--framer-font-size": "28px", "--framer-font-weight": "500", "--framer-letter-spacing": "-1.5px", "--framer-line-height": "1em", "--framer-text-color": "var(--extracted-r6o4lv, var(--token-8f2a02c2-6f36-454d-a523-0607b7f8cc20))" }}>
-                        {"$3499"}
+                        {`$${RETAINER_PRICE}`}
                       </p>
                     </div>
                   </div>
@@ -1677,7 +1666,7 @@ export default function StudioSplitLayout() {
         <div className="framer-u19coc" data-framer-name="Footer">
           <div className="framer-1kc9qmr" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
             <p className="framer-text framer-styles-preset-1g9nk76" data-styles-preset="falM4NjSQ" dir="auto" style={{ "--framer-text-color": "var(--token-ad4fa735-38be-4b3b-a235-fb73181c10dd, rgb(84, 84, 84))" }}>
-              {"© 2026. Clickstart Studio"}
+              {"© 2026. Curvex Studio"}
             </p>
           </div>
           <div className="framer-1fz2hws">

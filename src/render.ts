@@ -37,7 +37,7 @@ export function pageFor(file: string): Page {
 }
 
 /** Where this site is published. Overridable, but no longer a guess. */
-const DEFAULT_ORIGIN = "https://clickstart.studio";
+const DEFAULT_ORIGIN = "https://curvex.studio";
 
 /**
  * The origin this site will be served from, used to make canonical, og:url and
