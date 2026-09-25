@@ -8,7 +8,7 @@
 // a label on the landing page card, not a price of its own, so it is not
 // computed here.
 
-const DEFAULT_BASE_PRICE = 999;
+const DEFAULT_BASE_PRICE = 1199;
 const RETAINER_ADDON = 2300;
 
 function parseBase(): number {
