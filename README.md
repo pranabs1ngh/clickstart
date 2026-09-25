@@ -37,7 +37,7 @@ npm run dev
 Framer hard-codes `<link rel="canonical">` and `og:url` to its own domain, so
 they were rewritten to root-relative paths at conversion - at which point
 nobody yet knew the domain. `src/render.ts` now resolves them back to
-`https://clickstart.studio` at build time, along with `og:image` and
+`https://curvex.studio` at build time, along with `og:image` and
 `twitter:image`, which are worse than weak when relative: link previews fetch
 the image with no page to resolve it against, so a relative one unfurls as no
 image at all.

@@ -20,7 +20,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}">
   <rect width="${W}" height="${H}" fill="${BG}"/>
   <rect x="0" y="${H - 10}" width="${W}" height="10" fill="${ACCENT}"/>
   <text x="176" y="112" font-family='${SANS}' font-size="38" font-weight="600"
-        letter-spacing="-1.6" fill="${INK}">clickstart.</text>
+        letter-spacing="-1.6" fill="${INK}">curvex.</text>
   <text x="80" y="292" font-family='${SANS}' font-size="82" font-weight="700"
         letter-spacing="-3.2" fill="${INK}">Web &amp; product design</text>
   <text x="80" y="386" font-family='${SANS}' font-size="82" font-weight="700"
@@ -28,7 +28,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}">
   <text x="80" y="452" font-family='${SANS}' font-size="29" font-weight="400"
         fill="${MUTED}">Websites and digital products, designed and built by one team.</text>
   <text x="80" y="558" font-family='${SANS}' font-size="26" font-weight="600"
-        letter-spacing="-0.5" fill="${INK}">clickstart.studio</text>
+        letter-spacing="-0.5" fill="${INK}">curvex.studio</text>
   <circle cx="826" cy="550" r="7" fill="${ACCENT}"/>
   <text x="848" y="558" font-family='${SANS}' font-size="22" font-weight="600"
         letter-spacing="1.8" fill="${MUTED}">ACCEPTING PROJECTS</text>

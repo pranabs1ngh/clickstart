@@ -22,8 +22,8 @@ export function structuredData(origin: string): string {
       {
         "@type": "ProfessionalService",
         "@id": `${origin}/#studio`,
-        name: "Clickstart Studio",
-        alternateName: "Clickstart",
+        name: "Curvex Studio",
+        alternateName: "Curvex",
         url: `${origin}/`,
         email: EMAIL,
         description:
@@ -104,7 +104,7 @@ export function structuredData(origin: string): string {
         "@type": "WebSite",
         "@id": `${origin}/#website`,
         url: `${origin}/`,
-        name: "Clickstart Studio",
+        name: "Curvex Studio",
         publisher: { "@id": `${origin}/#studio` },
         inLanguage: "en",
       },

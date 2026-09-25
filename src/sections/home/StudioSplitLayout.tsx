@@ -59,18 +59,6 @@ export default function StudioSplitLayout() {
           </div>
         </div>
         <div className="framer-9alnx7" data-framer-name="Studio details">
-          <div className="framer-14p0lnt" data-framer-name="Client experience">
-            <div className="framer-15c09cm" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-              <h5 className="framer-text framer-styles-preset-zlwqb5" data-styles-preset="Dtff2EAaU" dir="auto">
-                {"CLIENT EXPERIENCE:"}
-              </h5>
-            </div>
-            <div className="framer-af2ohe" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
-              <p className="framer-text framer-styles-preset-1catpqd" data-styles-preset="G3i35QUhG" dir="auto">
-                {"Experience across startups, SaaS & digital products"}
-              </p>
-            </div>
-          </div>
           <div className="framer-1rz33mx" data-framer-name="Services">
             <div className="framer-9wh3gm" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
               <p dir="auto" style={{ "--font-selector": "Q1VTVE9NVjI7SW50ZXIgVGlnaHQgUmVndWxhcg==", "--framer-font-family": "\"Inter Tight Regular\", \"Inter Tight Regular Placeholder\", sans-serif", "--framer-font-open-type-features": "'blwf' on, 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on", "--framer-font-size": "14px", "--framer-letter-spacing": "-0.21px", "--framer-text-color": "var(--token-ad4fa735-38be-4b3b-a235-fb73181c10dd)" }} className="framer-text">
@@ -671,7 +659,7 @@ export default function StudioSplitLayout() {
           <div className="framer-xvimie" data-framer-name="Pricing introduction">
             <div className="framer-12gnx6q" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
               <h2 className="framer-text framer-styles-preset-18id3hq" data-styles-preset="VGdxg7reI" dir="auto" style={{ "--framer-text-alignment": "center" }}>
-                {"Ready to ClickStart?"}
+                {"Ready to Curvex?"}
               </h2>
             </div>
             <div className="framer-j5q5wf" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
@@ -1677,7 +1665,7 @@ export default function StudioSplitLayout() {
         <div className="framer-u19coc" data-framer-name="Footer">
           <div className="framer-1kc9qmr" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
             <p className="framer-text framer-styles-preset-1g9nk76" data-styles-preset="falM4NjSQ" dir="auto" style={{ "--framer-text-color": "var(--token-ad4fa735-38be-4b3b-a235-fb73181c10dd, rgb(84, 84, 84))" }}>
-              {"© 2026. Clickstart Studio"}
+              {"© 2026. Curvex Studio"}
             </p>
           </div>
           <div className="framer-1fz2hws">

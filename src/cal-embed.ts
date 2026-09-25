@@ -16,7 +16,7 @@
 // nothing to clip and nothing to scroll.
 
 /** The cal.com event this page books. */
-const CAL_LINK = "clickstart.studio/15mins";
+const CAL_LINK = "curvex.studio/15mins";
 const CAL_ORIGIN = "https://cal.com";
 const EMBED_JS = "https://app.cal.com/embed/embed.js";
 

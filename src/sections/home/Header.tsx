@@ -17,16 +17,16 @@ export default function Header() {
                 </div>
               </div>
               <div className="ssr-variant hidden-12ibufm hidden-ajyjij">
-                <div className="framer-blwqf7" data-framer-name="ClickStart placeholder logo" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
+                <div className="framer-blwqf7" data-framer-name="Curvex placeholder logo" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                   <div dir="auto" style={{ "--font-selector": "Q1VTVE9NVjI7SW50ZXIgVGlnaHQgU2VtaUJvbGQ=", "--framer-font-family": "\"Inter Tight SemiBold\", \"Inter Tight SemiBold Placeholder\", sans-serif", "--framer-font-size": "20px", "--framer-font-weight": "600", "--framer-letter-spacing": "-1px", "--framer-line-height": "1em", "--framer-text-color": "var(--token-8f2a02c2-6f36-454d-a523-0607b7f8cc20)" }} className="framer-text">
-                    {"clickstart."}
+                    {"curvex."}
                   </div>
                 </div>
               </div>
               <div className="ssr-variant hidden-72rtr7">
-                <div className="framer-blwqf7" data-framer-name="ClickStart placeholder logo" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
+                <div className="framer-blwqf7" data-framer-name="Curvex placeholder logo" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                   <div className="framer-text framer-styles-preset-1k5gyrp" data-styles-preset="qiSFrSK8M" dir="auto">
-                    {"clickstart."}
+                    {"curvex."}
                   </div>
                 </div>
               </div>
@@ -41,9 +41,9 @@ export default function Header() {
                   <img decoding="async" width="205" height="126" src="/assets/img/900fe8fe33c406c5.webp" alt="" style={{ display: "block", width: "100%", height: "100%", borderRadius: "inherit", cornerShape: "inherit", objectPosition: "center", objectFit: "cover" }} loading="lazy" />
                 </div>
               </div>
-              <div className="framer-blwqf7" data-framer-name="ClickStart placeholder logo" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
+              <div className="framer-blwqf7" data-framer-name="Curvex placeholder logo" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
                 <div dir="auto" style={{ "--font-selector": "Q1VTVE9NVjI7SW50ZXIgVGlnaHQgU2VtaUJvbGQ=", "--framer-font-family": "\"Inter Tight SemiBold\", \"Inter Tight SemiBold Placeholder\", sans-serif", "--framer-font-size": "20px", "--framer-font-weight": "600", "--framer-letter-spacing": "-1px", "--framer-line-height": "1em", "--framer-text-color": "var(--token-8f2a02c2-6f36-454d-a523-0607b7f8cc20)" }} className="framer-text">
-                  {"clickstart."}
+                  {"curvex."}
                 </div>
               </div>
             </a>
