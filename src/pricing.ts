@@ -3,13 +3,13 @@
 //
 // Set PRICING_BASE to change the landing page starting price - at build time
 // for production, or per-request in dev (see src/render.ts for the same
-// pattern with SITE_URL). The retainer starts a fixed $2,500 above that base,
+// pattern with SITE_URL). The retainer starts a fixed $2,300 above that base,
 // not as an independent price. Development is a flat +$1,000 add-on shown as
 // a label on the landing page card, not a price of its own, so it is not
 // computed here.
 
 const DEFAULT_BASE_PRICE = 999;
-const RETAINER_ADDON = 2500;
+const RETAINER_ADDON = 2300;
 
 function parseBase(): number {
   const raw = process.env.PRICING_BASE;
