@@ -9,7 +9,14 @@
 // appears once JavaScript has run, which means a flash of the old text and
 // search engines still reading the old text.
 //
-// 53 editable string(s).
+// t_1000, t_3499 and t_2000 are the landing page, retainer and
+// landing-page-with-development prices. shared-lib.F2AznzMP.mjs reads them
+// from here on hydration, but they are plain strings, not computed - they
+// must be kept equal to src/pricing.ts's LANDING_PAGE_PRICE, RETAINER_PRICE
+// and LANDING_PAGE_PRICE+1000 by hand, or the price on screen will revert to
+// whatever is written here the moment JavaScript runs.
+//
+// 51 editable string(s).
 export const c = {
   to_embed_a_website_or_widget_add_it_to_t: "To embed a website or widget, add it to the properties panel.",
   loading: "Loading…",
@@ -17,7 +24,7 @@ export const c = {
   retainer: "RETAINER",
   for_startups_and_teams_that_need_a_high_: "For startups and teams that need a high-impact landing page designed to convert.",
   for_teams_looking_for_a_dedicated_design: "For teams looking for a dedicated design partner to keep their digital work moving.",
-  t_1000: "$1000",
+  t_1000: "$1199",
   t_3499: "$3499",
   custom_landing_page_design: "Custom landing page design",
   ongoing_ui_ux_design_support: "Ongoing UI/UX design support",
@@ -41,14 +48,12 @@ export const c = {
   add_development_1k: "Add development (+$1k)",
   development_included: "Development included",
   starts_at: "starts at",
-  t_2000: "$2000",
+  t_2000: "$2199",
   clickstart: "curvex.",
   available_for_work: "ACCEPTING PROJECTS",
   design_studio: "Design studio",
   for_startups_saas_and_everything_in_betw: " for startups, SaaS, and everything in between.",
   we_design_and_build_websites_and_digital: "We design and build websites and digital products for teams that need to move. From kickoff to launch, the same team handles design and development every step of the way.",
-  client_experience: "CLIENT EXPERIENCE:",
-  experience_across_startups_saas_digital_: "Experience across startups, SaaS & digital products",
   services: "SERVICES:",
   web_design_product_design_conversion_foc: "Web design, product design & conversion-focused experiences",
   terms: "TERMS:",

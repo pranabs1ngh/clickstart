@@ -11,6 +11,7 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import type { ComponentType } from "react";
 import { calEmbed } from "./cal-embed";
+import { LANDING_PAGE_PRICE } from "./pricing";
 import { structuredData } from "./seo";
 
 export interface Page {
@@ -124,11 +125,19 @@ export async function renderPage(page: Page, Component: ComponentType): Promise<
         (_m, pre, path) => `${pre}"${SITE_ORIGIN}${path}"`
       );
 
+  // manifest.json's head - captured verbatim from Framer at conversion time -
+  // quotes the landing page's starting price in its description, og:description
+  // and twitter:description meta tags. That price now comes from PRICING_BASE
+  // at render time, so the literal Framer baked in has to be kept in sync here
+  // rather than by hand in manifest.json every time the price changes.
+  const priced = (html: string) =>
+    html.replace(/Landing pages from \$[\d,]+\./g, `Landing pages from $${LANDING_PAGE_PRICE}.`);
+
   // Both additions go last so they sit after Framer's stylesheet: the embed's
   // CSS overrides Framer's fixed heights by source order, not by !important.
   const extras = page.route === "/" ? calEmbed() : "";
   const head =
-    (SITE_ORIGIN ? absolutise(page.head) : page.head) + extras + structuredDataFor(page);
+    priced(SITE_ORIGIN ? absolutise(page.head) : page.head) + extras + structuredDataFor(page);
 
   return `${page.prologue}<html${page.htmlAttrs}><head>${head}</head>${page.afterHead}${body}</html>`;
 }
