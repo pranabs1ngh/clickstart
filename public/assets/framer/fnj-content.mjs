@@ -16,6 +16,11 @@
 // and LANDING_PAGE_PRICE+1000 by hand, or the price on screen will revert to
 // whatever is written here the moment JavaScript runs.
 //
+// youakanksha_gmail_com is only the visible email text. The two mailto:
+// hrefs (header icon, footer link) are separate literals hardcoded directly
+// in shared-lib.F2AznzMP.mjs - update those too, or the link keeps pointing
+// at the old address even though the text reads correctly.
+//
 // 51 editable string(s).
 export const c = {
   to_embed_a_website_or_widget_add_it_to_t: "To embed a website or widget, add it to the properties panel.",
@@ -63,7 +68,7 @@ export const c = {
   let_s_make_something_great: "Let’s make something great.",
   tell_us_what_you_re_working_on_and_let_s: "Tell us what you’re working on, and let’s see how we can help.",
   t_2026_clickstart_studio: "© 2026. Curvex Studio",
-  youakanksha_gmail_com: "youakanksha@gmail.com",
+  youakanksha_gmail_com: "hello@curvex.studio",
   x_twitter: "X/Twitter",
   page_not_found: "Page Not Found",
   the_page_you_are_looking_for_does_not_ex: "The page you are looking for does not exist or may have been moved.",

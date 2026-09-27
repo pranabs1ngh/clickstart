@@ -8,7 +8,7 @@
 
 import { LANDING_PAGE_PRICE, RETAINER_PRICE } from "./pricing";
 
-const EMAIL = "youakanksha@gmail.com";
+const EMAIL = "hello@curvex.studio";
 const TWITTER = "https://x.com/uiakanksha_";
 
 /** The JSON-LD graph for the home page, as a ready-to-inline <script> tag. */

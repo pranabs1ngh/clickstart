@@ -58,7 +58,7 @@ export default function Header() {
             </Suspense>
           </div>
           <Suspense fallback={null}>
-            <a className="framer-13gw3bh framer-lux5qc" data-framer-name="Email studio" data-reset="button" href="mailto:youakanksha@gmail.com" target="_blank">
+            <a className="framer-13gw3bh framer-lux5qc" data-framer-name="Email studio" data-reset="button" href="mailto:hello@curvex.studio" target="_blank">
               <svg className="framer-my9st framer-334l4f" role="presentation" viewBox="0 0 24 24">
                 <use href="#130366660" />
               </svg>

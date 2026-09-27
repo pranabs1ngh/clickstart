@@ -1673,8 +1673,8 @@ export default function StudioSplitLayout() {
             <div className="framer-1b3t5pg" data-framer-component-type="RichTextContainer" style={{ transform: "none" }}>
               <p className="framer-text framer-styles-preset-1g9nk76" data-styles-preset="falM4NjSQ" dir="auto" style={{ "--framer-text-color": "var(--token-ad4fa735-38be-4b3b-a235-fb73181c10dd, rgb(84, 84, 84))" }}>
                 <Suspense fallback={null}>
-                  <a className="framer-text" href="mailto:youakanksha@gmail.com" rel="">
-                    {"youakanksha@gmail.com"}
+                  <a className="framer-text" href="mailto:hello@curvex.studio" rel="">
+                    {"hello@curvex.studio"}
                   </a>
                 </Suspense>
               </p>
